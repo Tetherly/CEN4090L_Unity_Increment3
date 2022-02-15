@@ -246,7 +246,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1350119041216924143, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_Name
-      value: PianoKeySharp (3)
+      value: PianoKeySharpG
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_RootOrder
@@ -254,11 +254,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -2.25
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -360,7 +360,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1350119041216924143, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_Name
-      value: PianoKeySharp (4)
+      value: PianoKeySharpA
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_RootOrder
@@ -368,11 +368,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -0.75
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -575,7 +575,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 5.3319697
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -599,7 +599,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 594678939}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
+  m_LocalPosition: {x: 0, y: 0.35, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -1113,7 +1113,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1350119041216924143, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_Name
-      value: PianoKeySharp (2)
+      value: PianoKeySharpF
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_RootOrder
@@ -1121,11 +1121,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: -3.75
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -2.75
       objectReference: {fileID: 0}
     - target: {fileID: 7009778613364874296, guid: a8a9ad81804c8454a88aac31485f57b6, type: 3}
       propertyPath: m_LocalPosition.z
