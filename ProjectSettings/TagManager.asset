@@ -45,3 +45,12 @@ TagManager:
   - name: Background
     uniqueID: 350057697
     locked: 0
+  - name: White Keys
+    uniqueID: 3783461671
+    locked: 0
+  - name: Black Keys
+    uniqueID: 2620236361
+    locked: 0
+  - name: Key Text
+    uniqueID: 1041257373
+    locked: 0
