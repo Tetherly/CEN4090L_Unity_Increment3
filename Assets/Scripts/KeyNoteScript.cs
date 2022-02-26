@@ -17,7 +17,7 @@ public class KeyNoteScript : MonoBehaviour
     public AudioSource F5;
     public AudioSource G5;
     public AudioSource A5;
-    public AudioSource B5;
+    //public AudioSource B5;
     public AudioSource C4sharp;
     public AudioSource D4sharp;
     public AudioSource F4sharp;
@@ -27,7 +27,7 @@ public class KeyNoteScript : MonoBehaviour
     public AudioSource D5sharp;
     public AudioSource F5sharp;
     public AudioSource G5sharp;
-    public AudioSource A5sharp;
+    //public AudioSource A5sharp;
 
     void Update()
     {
@@ -61,18 +61,20 @@ public class KeyNoteScript : MonoBehaviour
             D4sharp.Play();
         if (Input.GetKeyDown(KeyCode.R))
             F4sharp.Play();
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.T))
             G4sharp.Play();
         if (Input.GetKeyDown(KeyCode.Y))
             A4sharp.Play();
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.U))
             C5sharp.Play();
-        if (Input.GetKeyDown(KeyCode.O))
+        if (Input.GetKeyDown(KeyCode.I))
             D5sharp.Play();
-        if (Input.GetKeyDown(KeyCode.LeftCurlyBracket))
+        if (Input.GetKeyDown(KeyCode.O))
             F5sharp.Play();
-        if (Input.GetKeyDown(KeyCode.RightCurlyBracket))
+        if (Input.GetKeyDown(KeyCode.P))
             G5sharp.Play();
+        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+            A5.Play();
     }
 
     /*
