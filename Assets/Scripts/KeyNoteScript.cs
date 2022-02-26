@@ -17,17 +17,15 @@ public class KeyNoteScript : MonoBehaviour
     public AudioSource F5;
     public AudioSource G5;
     public AudioSource A5;
-    //public AudioSource B5;
-    public AudioSource C4sharp;
-    public AudioSource D4sharp;
-    public AudioSource F4sharp;
-    public AudioSource G4sharp;
-    public AudioSource A4sharp;
-    public AudioSource C5sharp;
-    public AudioSource D5sharp;
-    public AudioSource F5sharp;
-    public AudioSource G5sharp;
-    //public AudioSource A5sharp;
+    public AudioSource Db4;
+    public AudioSource Eb4;
+    public AudioSource Gb4;
+    public AudioSource Ab4;
+    public AudioSource Bb4;
+    public AudioSource Db5;
+    public AudioSource Eb5;
+    public AudioSource Gb5;
+    public AudioSource Ab5;
 
     void Update()
     {
@@ -55,98 +53,25 @@ public class KeyNoteScript : MonoBehaviour
             F5.Play();
         if (Input.GetKeyDown(KeyCode.Quote))
             G5.Play();
-        if (Input.GetKeyDown(KeyCode.Q))
-            C4sharp.Play();
-        if (Input.GetKeyDown(KeyCode.W))
-            D4sharp.Play();
-        if (Input.GetKeyDown(KeyCode.R))
-            F4sharp.Play();
-        if (Input.GetKeyDown(KeyCode.T))
-            G4sharp.Play();
-        if (Input.GetKeyDown(KeyCode.Y))
-            A4sharp.Play();
-        if (Input.GetKeyDown(KeyCode.U))
-            C5sharp.Play();
-        if (Input.GetKeyDown(KeyCode.I))
-            D5sharp.Play();
-        if (Input.GetKeyDown(KeyCode.O))
-            F5sharp.Play();
-        if (Input.GetKeyDown(KeyCode.P))
-            G5sharp.Play();
-        if (Input.GetKeyDown(KeyCode.KeypadEnter))
+        if (Input.GetKeyDown(KeyCode.Return))
             A5.Play();
+        if (Input.GetKeyDown(KeyCode.Q))
+            Db4.Play();
+        if (Input.GetKeyDown(KeyCode.W))
+            Eb4.Play();
+        if (Input.GetKeyDown(KeyCode.R))
+            Gb4.Play();
+        if (Input.GetKeyDown(KeyCode.T))
+            Ab4.Play();
+        if (Input.GetKeyDown(KeyCode.Y))
+            Bb4.Play();
+        if (Input.GetKeyDown(KeyCode.I))
+            Db5.Play();
+        if (Input.GetKeyDown(KeyCode.O))
+            Eb5.Play();
+        if (Input.GetKeyDown(KeyCode.LeftBracket))
+            Gb5.Play();
+        if (Input.GetKeyDown(KeyCode.RightBracket))
+            Ab5.Play();
     }
-
-    /*
-    public void C4_Stroke()
-    {
-        C4.Play();
-    }
-
-    public void D4_Stroke()
-    {
-        D4.Play();
-    }
-
-    public void E4_Stroke()
-    {
-        E4.Play();
-    }
-
-    public void F4_Stroke()
-    {
-        F4.Play();
-    }
-
-    public void G4_Stroke()
-    {
-        G4.Play();
-    }
-
-    public void A4_Stroke()
-    {
-        A4.Play();
-    }
-
-    public void B4_Stroke()
-    {
-        B4.Play();
-    }
-
-    public void C5_Stroke()
-    {
-        C5.Play();
-    }
-
-    public void D5_Stroke()
-    {
-        D5.Play();
-    }
-
-    public void E5_Stroke()
-    {
-        E5.Play();
-    }
-
-    public void F5_Stroke()
-    {
-        F5.Play();
-    }
-
-    public void G5_Stroke()
-    {
-        G5.Play();
-    }
-    
-    public void A5_Stroke()
-    {
-        A5.Play();
-    }
-
-    public void B5_Stroke()
-    {
-        B5.Play();
-    }
-    */
-
 }
