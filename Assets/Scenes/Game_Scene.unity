@@ -4652,7 +4652,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1376790703}
   - component: {fileID: 1376790704}
-  - component: {fileID: 1376790702}
   - component: {fileID: 1376790705}
   m_Layer: 5
   m_Name: GameManager
@@ -4661,40 +4660,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1376790702
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1376790701}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3625eeea8e652254da907beaa1359828, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C4: {fileID: 0}
-  D4: {fileID: 0}
-  E4: {fileID: 0}
-  F4: {fileID: 0}
-  G4: {fileID: 0}
-  A4: {fileID: 0}
-  B4: {fileID: 0}
-  C5: {fileID: 0}
-  D5: {fileID: 0}
-  E5: {fileID: 0}
-  F5: {fileID: 0}
-  G5: {fileID: 0}
-  A5: {fileID: 0}
-  Db4: {fileID: 0}
-  Eb4: {fileID: 0}
-  Gb4: {fileID: 0}
-  Ab4: {fileID: 0}
-  Bb4: {fileID: 0}
-  Db5: {fileID: 0}
-  Eb5: {fileID: 0}
-  Gb5: {fileID: 0}
-  Ab5: {fileID: 0}
 --- !u!4 &1376790703
 Transform:
   m_ObjectHideFlags: 0
@@ -5593,6 +5558,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 4842210817993701349, guid: 5d961a588089aa74dafa8fdd19521a94, type: 3}
+    - {fileID: 7602590329393099855, guid: 5d961a588089aa74dafa8fdd19521a94, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 5d961a588089aa74dafa8fdd19521a94, type: 3}
 --- !u!1 &1637728677 stripped
 GameObject:
