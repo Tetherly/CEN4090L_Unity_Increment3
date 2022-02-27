@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class KeyNoteScript : MonoBehaviour
 {
+    
     public AudioSource C4;
     public AudioSource D4;
     public AudioSource E4;
@@ -26,7 +27,7 @@ public class KeyNoteScript : MonoBehaviour
     public AudioSource Eb5;
     public AudioSource Gb5;
     public AudioSource Ab5;
-
+    
     void Update()
     {
         if(Input.GetKeyDown(KeyCode.CapsLock))

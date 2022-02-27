@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 2108849198267693018}
   - component: {fileID: 5387484329522900177}
   - component: {fileID: 7986569162512734347}
-  - component: {fileID: -3128963590348827128}
   m_Layer: 0
   m_Name: PianoKeySharp
   m_TagString: PianoKey
@@ -132,37 +131,3 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-3128963590348827128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1350119041216924143}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3625eeea8e652254da907beaa1359828, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  C4: {fileID: 0}
-  D4: {fileID: 0}
-  E4: {fileID: 0}
-  F4: {fileID: 0}
-  G4: {fileID: 0}
-  A4: {fileID: 0}
-  B4: {fileID: 0}
-  C5: {fileID: 0}
-  D5: {fileID: 0}
-  E5: {fileID: 0}
-  F5: {fileID: 0}
-  G5: {fileID: 0}
-  A5: {fileID: 0}
-  Db4: {fileID: 0}
-  Eb4: {fileID: 0}
-  Gb4: {fileID: 0}
-  Ab4: {fileID: 0}
-  Bb4: {fileID: 0}
-  Db5: {fileID: 0}
-  Eb5: {fileID: 0}
-  Gb5: {fileID: 0}
-  Ab5: {fileID: 0}
