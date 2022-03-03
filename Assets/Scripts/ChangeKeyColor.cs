@@ -5,7 +5,6 @@ using UnityEngine;
 public class ChangeKeyColor : MonoBehaviour
 {
     public GameObject key;
-    bool toggle = false;
     SpriteRenderer sr;
     public KeyCode changeColor;
 
@@ -18,12 +17,10 @@ public class ChangeKeyColor : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(changeColor))
-        {
-            toggle = !toggle;
-            sr.color = toggle ? Color.blue : Color.white;
-        }
-
+        if (Input.GetKey(changeColor))
+            sr.color = Color.blue;
+        else
+            sr.color = Color.white;
     }
 }
 
