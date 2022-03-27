@@ -40,7 +40,7 @@ public class KeyNoteScript : MonoBehaviour
     }
     
     void Update()
-    {
+    {      
         if(Input.GetKeyDown(KeyCode.CapsLock))
             C4.Play();
         if (Input.GetKeyDown(KeyCode.A))
