@@ -8,7 +8,8 @@ public class SharpKeyManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "notes")
         {
-            Destroy(collision.gameObject);
+            Destroy(collision.gameObject);    
         }
-    }
+          
+     }
 }
