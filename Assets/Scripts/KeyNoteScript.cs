@@ -27,11 +27,24 @@ public class KeyNoteScript : MonoBehaviour
     public AudioSource Eb5;
     public AudioSource Gb5;
     public AudioSource Ab5;
+
+    void Start()
+    {
+        
+    }
+
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.tag == "Note" && Input.GetKeyDown(KeyCode.CapsLock))
+            C4.Play();
+    }
     
     void Update()
     {
+        /*
         if(Input.GetKeyDown(KeyCode.CapsLock))
             C4.Play();
+        */
         if (Input.GetKeyDown(KeyCode.A))
             D4.Play();
         if (Input.GetKeyDown(KeyCode.S))
