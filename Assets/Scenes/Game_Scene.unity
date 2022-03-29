@@ -1155,6 +1155,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!82 &258382171
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3070,6 +3071,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!1 &793744870
 GameObject:
   m_ObjectHideFlags: 0
@@ -3402,6 +3404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!82 &834118567
 AudioSource:
   m_ObjectHideFlags: 0
@@ -3796,6 +3799,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!1001 &943034682
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3983,6 +3987,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!82 &1027603823
 AudioSource:
   m_ObjectHideFlags: 0
@@ -4736,6 +4741,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!1001 &1224604441
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5942,6 +5948,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!82 &1591208247
 AudioSource:
   m_ObjectHideFlags: 0
@@ -6581,6 +6588,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!1 &1738979784
 GameObject:
   m_ObjectHideFlags: 0
@@ -6724,6 +6732,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7e9f0601f6576844689e6b7ed6f69f44, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MissedNote: {fileID: 0}
 --- !u!1 &1791253374
 GameObject:
   m_ObjectHideFlags: 0
@@ -7453,7 +7462,7 @@ GameObject:
   - component: {fileID: 1920330369}
   m_Layer: 5
   m_Name: _demo
-  m_TagString: Untagged
+  m_TagString: GameController
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

@@ -22,10 +22,9 @@ public class NoteSpawner : MonoBehaviour
 
     private void SpawnMusicNotes()
     {
-        int randomNote = Random.Range(0, notePrefabs.Length);
         int randNoteSpawn = Random.Range(0, spawnPoints.Length);
 
-        Instantiate(notePrefabs[0], spawnPoints[randNoteSpawn].position, transform.rotation);
+        Instantiate(notePrefabs[randNoteSpawn], spawnPoints[randNoteSpawn].position, transform.rotation);
         
     }
 }
