@@ -11,18 +11,18 @@ public class KeyManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "notes")
         {
-            if(gameObject.name == "KeyC4")
+            if(gameObject.name == "NoteC4")
             {
                 if (Input.GetKeyDown(KeyCode.CapsLock))
                 {
-                    
+                    //  increment score
                 }
                 else
                 {
                     // Play Missed Note Sound
                     MissedNote.Play();
                 }
-            }else if(gameObject.name == "KeyD4")
+            }else if(gameObject.name == "NoteD4")
             {
                 if (Input.GetKeyDown(KeyCode.A))
                 {
@@ -34,7 +34,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyE4")
+            else if (gameObject.name == "NoteE4")
             {
                 if (Input.GetKeyDown(KeyCode.S))
                 {
@@ -46,7 +46,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyF4")
+            else if (gameObject.name == "NoteF4")
             {
                 if (Input.GetKeyDown(KeyCode.D))
                 {
@@ -58,7 +58,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyG4")
+            else if (gameObject.name == "NoteG4")
             {
                 if (Input.GetKeyDown(KeyCode.F))
                 {
@@ -70,7 +70,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyA4")
+            else if (gameObject.name == "NoteA4")
             {
                 if (Input.GetKeyDown(KeyCode.G))
                 {
@@ -82,7 +82,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyB4")
+            else if (gameObject.name == "NoteB4")
             {
                 if (Input.GetKeyDown(KeyCode.H))
                 {
@@ -94,7 +94,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyC5")
+            else if (gameObject.name == "NoteC5")
             {
                 if (Input.GetKeyDown(KeyCode.J))
                 {
@@ -106,7 +106,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyD5")
+            else if (gameObject.name == "NoteD5")
             {
                 if (Input.GetKeyDown(KeyCode.K))
                 {
@@ -118,7 +118,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyE5")
+            else if (gameObject.name == "NoteE5")
             {
                 if (Input.GetKeyDown(KeyCode.L))
                 {
@@ -130,7 +130,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyF5")
+            else if (gameObject.name == "NoteF5")
             {
                 if (Input.GetKeyDown(KeyCode.Semicolon))
                 {
@@ -142,7 +142,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyG5")
+            else if (gameObject.name == "NoteG5")
             {
                 if (Input.GetKeyDown(KeyCode.Quote))
                 {
@@ -154,7 +154,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyA5")
+            else if (gameObject.name == "NoteA5")
             {
                 if (Input.GetKeyDown(KeyCode.Return))
                 {
@@ -166,7 +166,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyDb4")
+            else if (gameObject.name == "NoteDb4")
             {
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
@@ -178,7 +178,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyEb4")
+            else if (gameObject.name == "NoteEb4")
             {
                 if (Input.GetKeyDown(KeyCode.W))
                 {
@@ -190,7 +190,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyGb4")
+            else if (gameObject.name == "NoteGb4")
             {
                 if (Input.GetKeyDown(KeyCode.R))
                 {
@@ -202,7 +202,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyAb4")
+            else if (gameObject.name == "NoteAb4")
             {
                 if (Input.GetKeyDown(KeyCode.T))
                 {
@@ -214,7 +214,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyBb4")
+            else if (gameObject.name == "NoteBb4")
             {
                 if (Input.GetKeyDown(KeyCode.Y))
                 {
@@ -226,7 +226,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyDb5")
+            else if (gameObject.name == "NoteDb5")
             {
                 if (Input.GetKeyDown(KeyCode.I))
                 {
@@ -238,7 +238,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyEb5")
+            else if (gameObject.name == "NoteEb5")
             {
                 if (Input.GetKeyDown(KeyCode.O))
                 {
@@ -250,7 +250,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyGb5")
+            else if (gameObject.name == "NoteGb5")
             {
                 if (Input.GetKeyDown(KeyCode.LeftBracket))
                 {
@@ -262,7 +262,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "KeyAb5")
+            else if (gameObject.name == "NoteAb5")
             {
                 if (Input.GetKeyDown(KeyCode.RightBracket))
                 {
