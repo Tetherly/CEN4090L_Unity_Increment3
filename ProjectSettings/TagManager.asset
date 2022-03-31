@@ -7,6 +7,26 @@ TagManager:
   - PianoKey
   - KeyText
   - notes
+  - NoteC4
+  - NoteD4
+  - NoteE4
+  - NoteF4
+  - NoteG4
+  - NoteA4
+  - NoteB4
+  - NoteC5
+  - NoteD5
+  - NoteE5
+  - NoteF5
+  - NoteG5
+  - NoteA5
+  - NoteDb4
+  - NoteEb4
+  - NoteGb4
+  - NoteAb4
+  - NoteBb4
+  - NoteDb5
+  - NoteEb5
   layers:
   - Default
   - TransparentFX
