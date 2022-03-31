@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 3911992017584647540}
   - component: {fileID: -4660456896150644627}
   m_Layer: 0
-  m_Name: NoteD5
+  m_Name: NoteGb5
   m_TagString: notes
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
