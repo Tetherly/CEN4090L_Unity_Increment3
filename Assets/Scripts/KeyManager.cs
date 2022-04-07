@@ -9,295 +9,290 @@ public class KeyManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "notes")
         {
-            if(collision.gameObject.name == "NoteC4" && gameObject.name == "PianoKeyC4")
+            //Debug.Log("This happened!");
+            if(gameObject.name == "PianoKeyC4")
             {
-                if (Input.GetKeyDown(KeyCode.CapsLock))
+                if (Input.GetKey(KeyCode.CapsLock))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
-                    Debug.Log("This happened!");
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
-            }else if(collision.gameObject.name == "NoteD4" && gameObject.name == "PianoKeyD4")
+            }else if(gameObject.name == "PianoKeyD4")
             {
-                if (Input.GetKeyDown(KeyCode.A))
+                if (Input.GetKey(KeyCode.A))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
-                    Debug.Log("This happened!");
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteE4" && gameObject.name == "PianoKeyE4")
+            else if (gameObject.name == "PianoKeyE4")
             {
-                if (Input.GetKeyDown(KeyCode.S))
+                if (Input.GetKey(KeyCode.S))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
-                    Debug.Log("This happened!");
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteF4" && gameObject.name == "PianoKeyF4")
+            else if (gameObject.name == "PianoKeyF4")
             {
-                if (Input.GetKeyDown(KeyCode.D))
+                if (Input.GetKey(KeyCode.D))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
-                    Debug.Log("This happened!");
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteG4" && gameObject.name == "PianoKeyG4")
+            else if (gameObject.name == "PianoKeyG4")
             {
-                if (Input.GetKeyDown(KeyCode.F))
+                if (Input.GetKey(KeyCode.F))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
-                    Debug.Log("This happened!");
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteA4" && gameObject.name == "PianoKeyA4")
+            else if (gameObject.name == "PianoKeyA4")
             {
-                if (Input.GetKeyDown(KeyCode.G))
+                if (Input.GetKey(KeyCode.G))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
-                    Debug.Log("This happened!");
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteB4" && gameObject.name == "PianoKeyB4")
+            else if (gameObject.name == "PianoKeyB4")
             {
-                if (Input.GetKeyDown(KeyCode.H))
+                if (Input.GetKey(KeyCode.H))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteC5" && gameObject.name == "PianoKeyC5")
+            else if (gameObject.name == "PianoKeyC5")
             {
-                if (Input.GetKeyDown(KeyCode.J))
+                if (Input.GetKey(KeyCode.J))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteD5" && gameObject.name == "PianoKeyD5")
+            else if (gameObject.name == "PianoKeyD5")
             {
-                if (Input.GetKeyDown(KeyCode.K))
+                if (Input.GetKey(KeyCode.K))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteE5" && gameObject.name == "PianoKeyE5")
+            else if (gameObject.name == "PianoKeyE5")
             {
-                if (Input.GetKeyDown(KeyCode.L))
+                if (Input.GetKey(KeyCode.L))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteF5" && gameObject.name == "PianoKeyF5")
+            else if (gameObject.name == "PianoKeyF5")
             {
-                if (Input.GetKeyDown(KeyCode.Semicolon))
+                if (Input.GetKey(KeyCode.Semicolon))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteG5" && gameObject.name == "PianoKeyG5")
+            else if (gameObject.name == "PianoKeyG5")
             {
-                if (Input.GetKeyDown(KeyCode.Quote))
+                if (Input.GetKey(KeyCode.Quote))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteA5" && gameObject.name == "PianoKeyA5")
+            else if (gameObject.name == "PianoKeyA5")
             {
-                if (Input.GetKeyDown(KeyCode.Return))
+                if (Input.GetKey(KeyCode.Return))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteDb4" && gameObject.name == "PianoKeyDb4")
+            else if (gameObject.name == "PianoKeyDb4")
             {
-                if (Input.GetKeyDown(KeyCode.Q))
+                if (Input.GetKey(KeyCode.Q))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteEb4" && gameObject.name == "PianoKeyEb4")
+            else if (gameObject.name == "PianoKeyEb4")
             {
-                if (Input.GetKeyDown(KeyCode.W))
+                if (Input.GetKey(KeyCode.W))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteGb4" && gameObject.name == "PianoKeyGb4")
+            else if (gameObject.name == "PianoKeyGb4")
             {
-                if (Input.GetKeyDown(KeyCode.R))
+                if (Input.GetKey(KeyCode.R))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteAb4" && gameObject.name == "PianoKeyAb4")
+            else if (gameObject.name == "PianoKeyAb4")
             {
-                if (Input.GetKeyDown(KeyCode.T))
+                if (Input.GetKey(KeyCode.T))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteBb4" && gameObject.name == "PianoKeyBb4")
+            else if (gameObject.name == "PianoKeyBb4")
             {
-                if (Input.GetKeyDown(KeyCode.Y))
+                if (Input.GetKey(KeyCode.Y))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteDb5" && gameObject.name == "PianoKeyDb5")
+            else if (gameObject.name == "PianoKeyDb5")
             {
-                if (Input.GetKeyDown(KeyCode.I))
+                if (Input.GetKey(KeyCode.I))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteEb5" && gameObject.name == "PianoKeyEb5")
+            else if (gameObject.name == "PianoKeyEb5")
             {
-                if (Input.GetKeyDown(KeyCode.O))
+                if (Input.GetKey(KeyCode.O))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteGb5" && gameObject.name == "PianoKeyGb5")
+            else if (gameObject.name == "PianoKeyGb5")
             {
-                if (Input.GetKeyDown(KeyCode.LeftBracket))
+                if (Input.GetKey(KeyCode.LeftBracket))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
-            else if (collision.gameObject.name == "NoteAb5" && gameObject.name == "PianoKeyAb5")
+            else if (gameObject.name == "PianoKeyAb5")
             {
-                if (Input.GetKeyDown(KeyCode.RightBracket))
+                if (Input.GetKey(KeyCode.RightBracket))
                 {
                     //  increment score
-                    ScoreScript.scoreValue += 1;
+                    ScoreScript.scoreValue += 10;
                 }
                 else
                 {
                     // Play Missed Note Sound
-                    MissedNote.Play();
+                    //MissedNote.Play();
                 }
             }
 
