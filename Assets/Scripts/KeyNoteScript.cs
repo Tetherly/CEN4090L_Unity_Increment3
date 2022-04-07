@@ -27,6 +27,7 @@ public class KeyNoteScript : MonoBehaviour
     public AudioSource Eb5;
     public AudioSource Gb5;
     public AudioSource Ab5;
+    public AudioSource MissedNote;
 
     void Start()
     {
