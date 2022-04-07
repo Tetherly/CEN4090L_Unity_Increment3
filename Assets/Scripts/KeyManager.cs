@@ -11,7 +11,7 @@ public class KeyManager : MonoBehaviour
     {
         if (collision.gameObject.tag == "notes")
         {
-            if(gameObject.name == "NoteC4")
+            if(collision.gameObject.name == "NoteC4" && gameObject.name == "PianoKeyC4")
             {
                 if (Input.GetKeyDown(KeyCode.CapsLock))
                 {
@@ -23,7 +23,7 @@ public class KeyManager : MonoBehaviour
                     // Play Missed Note Sound
                     MissedNote.Play();
                 }
-            }else if(gameObject.name == "NoteD4")
+            }else if(collision.gameObject.name == "NoteD4" && gameObject.name == "PianoKeyD4")
             {
                 if (Input.GetKeyDown(KeyCode.A))
                 {
@@ -36,7 +36,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteE4")
+            else if (collision.gameObject.name == "NoteE4" && gameObject.name == "PianoKeyE4")
             {
                 if (Input.GetKeyDown(KeyCode.S))
                 {
@@ -49,7 +49,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteF4")
+            else if (collision.gameObject.name == "NoteF4" && gameObject.name == "PianoKeyF4")
             {
                 if (Input.GetKeyDown(KeyCode.D))
                 {
@@ -62,7 +62,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteG4")
+            else if (collision.gameObject.name == "NoteG4" && gameObject.name == "PianoKeyG4")
             {
                 if (Input.GetKeyDown(KeyCode.F))
                 {
@@ -75,7 +75,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteA4")
+            else if (collision.gameObject.name == "NoteA4" && gameObject.name == "PianoKeyA4")
             {
                 if (Input.GetKeyDown(KeyCode.G))
                 {
@@ -88,7 +88,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteB4")
+            else if (collision.gameObject.name == "NoteB4" && gameObject.name == "PianoKeyB4")
             {
                 if (Input.GetKeyDown(KeyCode.H))
                 {
@@ -101,7 +101,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteC5")
+            else if (collision.gameObject.name == "NoteC5" && gameObject.name == "PianoKeyC5")
             {
                 if (Input.GetKeyDown(KeyCode.J))
                 {
@@ -114,7 +114,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteD5")
+            else if (collision.gameObject.name == "NoteD5" && gameObject.name == "PianoKeyD5")
             {
                 if (Input.GetKeyDown(KeyCode.K))
                 {
@@ -127,7 +127,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteE5")
+            else if (collision.gameObject.name == "NoteE5" && gameObject.name == "PianoKeyE5")
             {
                 if (Input.GetKeyDown(KeyCode.L))
                 {
@@ -140,7 +140,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteF5")
+            else if (collision.gameObject.name == "NoteF5" && gameObject.name == "PianoKeyF5")
             {
                 if (Input.GetKeyDown(KeyCode.Semicolon))
                 {
@@ -153,7 +153,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteG5")
+            else if (collision.gameObject.name == "NoteG5" && gameObject.name == "PianoKeyG5")
             {
                 if (Input.GetKeyDown(KeyCode.Quote))
                 {
@@ -166,7 +166,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteA5")
+            else if (collision.gameObject.name == "NoteA5" && gameObject.name == "PianoKeyA5")
             {
                 if (Input.GetKeyDown(KeyCode.Return))
                 {
@@ -179,7 +179,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteDb4")
+            else if (collision.gameObject.name == "NoteDb4" && gameObject.name == "PianoKeyDb4")
             {
                 if (Input.GetKeyDown(KeyCode.Q))
                 {
@@ -192,7 +192,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteEb4")
+            else if (collision.gameObject.name == "NoteEb4" && gameObject.name == "PianoKeyEb4")
             {
                 if (Input.GetKeyDown(KeyCode.W))
                 {
@@ -205,7 +205,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteGb4")
+            else if (collision.gameObject.name == "NoteGb4" && gameObject.name == "PianoKeyGb4")
             {
                 if (Input.GetKeyDown(KeyCode.R))
                 {
@@ -218,7 +218,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteAb4")
+            else if (collision.gameObject.name == "NoteAb4" && gameObject.name == "PianoKeyAb4")
             {
                 if (Input.GetKeyDown(KeyCode.T))
                 {
@@ -231,7 +231,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteBb4")
+            else if (collision.gameObject.name == "NoteBb4" && gameObject.name == "PianoKeyBb4")
             {
                 if (Input.GetKeyDown(KeyCode.Y))
                 {
@@ -244,7 +244,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteDb5")
+            else if (collision.gameObject.name == "NoteDb5" && gameObject.name == "PianoKeyDb5")
             {
                 if (Input.GetKeyDown(KeyCode.I))
                 {
@@ -257,7 +257,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteEb5")
+            else if (collision.gameObject.name == "NoteEb5" && gameObject.name == "PianoKeyEb5")
             {
                 if (Input.GetKeyDown(KeyCode.O))
                 {
@@ -270,7 +270,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteGb5")
+            else if (collision.gameObject.name == "NoteGb5" && gameObject.name == "PianoKeyGb5")
             {
                 if (Input.GetKeyDown(KeyCode.LeftBracket))
                 {
@@ -283,7 +283,7 @@ public class KeyManager : MonoBehaviour
                     MissedNote.Play();
                 }
             }
-            else if (gameObject.name == "NoteAb5")
+            else if (collision.gameObject.name == "NoteAb5" && gameObject.name == "PianoKeyAb5")
             {
                 if (Input.GetKeyDown(KeyCode.RightBracket))
                 {
