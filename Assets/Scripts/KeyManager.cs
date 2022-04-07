@@ -15,6 +15,7 @@ public class KeyManager : MonoBehaviour
                 {
                     //  increment score
                     ScoreScript.scoreValue += 1;
+                    Debug.Log("This happened!");
                 }
                 else
                 {
@@ -27,6 +28,7 @@ public class KeyManager : MonoBehaviour
                 {
                     //  increment score
                     ScoreScript.scoreValue += 1;
+                    Debug.Log("This happened!");
                 }
                 else
                 {
@@ -40,6 +42,7 @@ public class KeyManager : MonoBehaviour
                 {
                     //  increment score
                     ScoreScript.scoreValue += 1;
+                    Debug.Log("This happened!");
                 }
                 else
                 {
@@ -53,6 +56,7 @@ public class KeyManager : MonoBehaviour
                 {
                     //  increment score
                     ScoreScript.scoreValue += 1;
+                    Debug.Log("This happened!");
                 }
                 else
                 {
@@ -66,6 +70,7 @@ public class KeyManager : MonoBehaviour
                 {
                     //  increment score
                     ScoreScript.scoreValue += 1;
+                    Debug.Log("This happened!");
                 }
                 else
                 {
@@ -79,6 +84,7 @@ public class KeyManager : MonoBehaviour
                 {
                     //  increment score
                     ScoreScript.scoreValue += 1;
+                    Debug.Log("This happened!");
                 }
                 else
                 {
