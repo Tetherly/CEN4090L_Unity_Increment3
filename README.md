@@ -8,3 +8,10 @@ Please refer back to the "CEN4090L_Unity" for our Issue Tracker. Our issue track
 
 The entire project was created in Unity using their proprietary Collaborate software for version control, as well as Plastic SCM in the final increment. 
 For the project iterations we are exporting the project to this GitHub repo for grading purposes.
+
+Members of Group:
+Tyler Starling
+Sergio Pantoja
+Nathan Zhao
+Talal Mahmoudi
+Joseph Schmitt
